@@ -1,0 +1,132 @@
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"Неправильно ты, дядя Фёдор, лобби постишь, надо по правилам создавать, читай man"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"Неправильно ты, дядя Фёдор, лобби постишь, надо по правилам создавать, читай man"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1123","width":6,"height":7,"gameBarrierCount":1,"playerBarrierCount":1,"name":"aidar_vs_fanzil_3","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1123","width":6,"height":7,"gameBarrierCount":1,"playerBarrierCount":1,"name":"aidar_vs_fanzil_3","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1123","width":6,"height":7,"gameBarrierCount":1,"playerBarrierCount":1,"name":"aidar_vs_fanzil_3","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1123","width":6,"height":7,"gameBarrierCount":1,"playerBarrierCount":1,"name":"aidar_vs_fanzil_3","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1197","width":5,"height":7,"gameBarrierCount":1,"playerBarrierCount":3,"name":"maxim_vs_fanzil_2","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1197","width":5,"height":7,"gameBarrierCount":1,"playerBarrierCount":3,"name":"maxim_vs_fanzil_2","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+SOCKET STARTGAME {"move":true,"width":5,"height":7,"position":[0,1],"opponentPosition":[6,3],"barriers":[[[3,0],[3,1],[2,0],[2,1]]]}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1123","width":6,"height":7,"gameBarrierCount":1,"playerBarrierCount":1,"name":"aidar_vs_fanzil_3","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+SOCKET STARTGAME {"move":false,"width":6,"height":7,"position":[6,2],"opponentPosition":[0,2],"barriers":[[[3,2],[3,1],[2,2],[2,1]]]}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1123","width":6,"height":7,"gameBarrierCount":1,"playerBarrierCount":1,"name":"aidar_vs_fanzil_3","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+SOCKET STARTGAME {"move":false,"width":6,"height":7,"position":[6,5],"opponentPosition":[0,3],"barriers":[[[1,2],[1,1],[2,2],[2,1]]]}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1197","width":5,"height":7,"gameBarrierCount":1,"playerBarrierCount":3,"name":"maxim_vs_fanzil_2","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+SOCKET STARTGAME {"move":true,"width":5,"height":7,"position":[0,4],"opponentPosition":[6,0],"barriers":[[[3,2],[2,2],[3,1],[2,1]]]}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1197","width":5,"height":7,"gameBarrierCount":1,"playerBarrierCount":3,"name":"maxim_vs_fanzil_2","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+SOCKET STARTGAME {"move":true,"width":5,"height":7,"position":[0,2],"opponentPosition":[6,1],"barriers":[[[2,3],[2,4],[3,3],[3,4]]]}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1197","width":5,"height":7,"gameBarrierCount":1,"playerBarrierCount":3,"name":"maxim_vs_fanzil_2","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+SOCKET STARTGAME {"move":true,"width":5,"height":7,"position":[0,2],"opponentPosition":[6,0],"barriers":[[[1,0],[0,0],[1,1],[0,1]]]}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1197","width":5,"height":7,"gameBarrierCount":1,"playerBarrierCount":3,"name":"maxim_vs_fanzil_2","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+SOCKET STARTGAME {"move":true,"width":5,"height":7,"position":[0,1],"opponentPosition":[6,3],"barriers":[[[4,3],[4,4],[5,3],[5,4]]]}
+
+Полученное сообщение из сервера:
+{"MESSAGE":"LOGIN OK"}
+
+Полученное сообщение из сервера:
+{"DATA":{"_id":"1197","width":5,"height":7,"gameBarrierCount":1,"playerBarrierCount":3,"name":"maxim_vs_fanzil_2","players_count":2},"SUCCESS":true}
+
+Полученное сообщение из сервера:
+SOCKET STARTGAME {"move":false,"width":5,"height":7,"position":[6,0],"opponentPosition":[0,2],"barriers":[[[3,1],[2,1],[3,0],[2,0]]]}
+
