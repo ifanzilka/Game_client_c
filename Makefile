@@ -50,7 +50,7 @@ $(LIB_NAME):
 		@echo "$(F_YELLOW)END RUN Makefile in libft $(F_NONE)"
 
 $(NAME): $(SRCS.O) $(HEADERS)
-		@echo "$(F_CYAN)Compile minishell ...$(F_NONE)"
+		@echo "$(F_CYAN)Compile client ...$(F_NONE)"
 		$(CC) $(FLAGS)  -I$(HEADER)  $(SRCS.O) -L. $(LIB_NAME) -o $(NAME)
 		@echo "$(F_GREEN)Game is Ready! GOOD LUCK:) $(F_NONE)"
 

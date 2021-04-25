@@ -18,6 +18,8 @@ int 	ft_send_msg(int socket, char *str)
 	int res;
 
 	res = send(socket, str , strlen(str), 0);
+	dprintf(g_fd_logs, "Мы отправили на сервер:\n");
+	dprintf(g_fd_logs,"%s\n",str);
 	if (res == -1)
 	{
         ft_putstr_fd("Ошибка,при отправке сообщения серверу\n", g_fd_logs);

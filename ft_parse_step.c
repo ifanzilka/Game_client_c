@@ -26,8 +26,8 @@ int     ft_parse_step(char *str)
     {
         printf("Ошибка парсинга\n");
     }
-    printf("scanf res: %d\n",res);
-    printf("Моя позиция:[%d,%d]\n",game.my_pos.x, game.my_pos.y);
+    //printf("scanf res: %d\n",res);
+    printf("\nМоя позиция:[%d,%d]\n",game.my_pos.x, game.my_pos.y);
     printf("Позиция Оппонента:[%d,%d]\n",game.opponent_pos.x, game.opponent_pos.y);
     return (true_false);
 }

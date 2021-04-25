@@ -25,7 +25,12 @@ int     ft_parse_start_game(char *str)
     if (res == 0)
     {
         true_false = 1;
+	printf("Мы делаем перый ход!\n");
         res = sscanf(str,"SOCKET STARTGAME {\"move\":true,\"width\":%d,\"height\":%d,\"position\":[%d,%d],\"opponentPosition\":[%d,%d],\"barriers\":[[[4,1],[4,0],[5,1],[5,0]],[[3,2],[3,3],[4,2],[4,3]]]}", &game.width, &game.height, &game.my_pos.x, &game.my_pos.y, &game.opponent_pos.x, &game.opponent_pos.y);
+    }
+    else
+    {
+    	printf("Оппонент делает первый ход!\n");
     }
     printf("scanf res: %d\n",res);
     printf("Параметры игры:\nwidth:%d\nheight:%d\n",game.width, game.height);

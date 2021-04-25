@@ -35,6 +35,9 @@ int     ft_wait_server(int socket)
     while(i < 100)
     {
         str = ft_read_msg(socket);
+
+	if (ft_strnstr(str,"{",ft_strlen(str)) == NULL)
+		return (0);
         if (ft_strnstr(str, "SOCKET STARTGAME", ft_strlen(str)) != NULL)
         {
             printf("Start Game!\n");

@@ -96,7 +96,9 @@ int 	ft_connection_in_sever(int socket, char *name)
         else
         {
             ft_connect_id_game(socket);
-        }  
+        }
+	ft_send_msg(socket, "SOCKET LEAVELOBBY");
+	ft_send_msg(socket,"DISCONNECT {\"QUIT\":\"\"}");
     }
     else
     {
