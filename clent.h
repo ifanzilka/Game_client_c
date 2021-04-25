@@ -35,6 +35,28 @@ int 	ft_send_msg(int socket, char *str);
 char	*ft_read_msg(int socket);
 int 	ft_connection_in_sever(int socket, char *name);
 int     ft_wait_server(int socket);
+int     ft_parse_start_game(char *str);
+int     ft_parse_step(char *str);
+int     ft_motion(int socket,char *str)
+;
+
+typedef struct		s_pos
+{
+    int             x;
+    int             y;
+
+}					t_pos;
+
+
+typedef struct		s_game
+{
+    int             width;
+    int             height;
+    t_pos           my_pos;
+    t_pos           opponent_pos;
+}					t_game;
+
+t_game              game;
 
 
 #endif
