@@ -28,6 +28,7 @@
 
 #include <fcntl.h>
 
+#define BUF 1000
 int 	g_fd_logs;
 
 

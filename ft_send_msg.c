@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 #include "clent.h"
 
 int 	ft_send_msg(int socket, char *str)

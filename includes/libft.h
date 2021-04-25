@@ -3,27 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bmarilli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: exenia <exenia@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/30 15:51:44 by bmarilli          #+#    #+#             */
-/*   Updated: 2021/03/27 14:56:39 by bmarilli         ###   ########.fr       */
+/*   Updated: 2021/04/13 00:48:53 by exenia           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# define F_NONE "\033[37m"
-# define RED "\033[31m"
-# define GREEN "\033[32m"
-# define CYANE "\033[36m"
 # define M_ADD 1
 # define M_REMOVE 0
 # include <unistd.h>
 # include <stdlib.h>
-
-#define BUF 10000
-
-
 
 /*
 ** IS
@@ -56,6 +48,7 @@ int					ft_memcmp(const void *s1, const void *s2, size_t n);
 */
 
 int					ft_atoi(const char *str);
+int					ft_atoi_overflow(const char *ptr);
 size_t				ft_intlen(long long n);
 int					ft_atoi_base(char *str, char *base);
 double				ft_atof(char *str);
@@ -76,6 +69,7 @@ int					ft_pow(int a, int n);
 
 int					ft_print_n_char(int num, char c, int fd);
 void				ft_putchar_fd(char c, int fd);
+int					ft_putchar(int c);
 void				ft_putstr_fd(char *s, int fd);
 void				ft_putendl_fd(char *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
@@ -135,12 +129,6 @@ typedef struct		s_arrinfo
 }					t_arrinfo;
 
 void				ft_bubble_sort(void *arr, int len, t_arrinfo inf);
-void				ft_bubble_sort_back(void *arr, int len, t_arrinfo inf);
-void				ft_insert_sort(void *arr, int len, t_arrinfo inf);
-void				ft_insert_sort_back(void *arr, int len, t_arrinfo inf);
-void				ft_merge_sort(void *arr, int len, t_arrinfo inf);
-void				ft_merge_sort_back(void *arr, int len, t_arrinfo inf);
-void				ft_quick_sort(void *arr, int len, t_arrinfo inf);
 
 /*
 ** Str

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 #include "clent.h"
 
 //SOCKET STEP {"width":7,"height":6,"position":[5,6],"opponentPosition":[1,5],"barriers":[[[5,3],[5,4],[4,3],[4,4]]]}

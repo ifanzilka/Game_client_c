@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 #include "clent.h"
 
 
@@ -18,9 +18,9 @@ char	*ft_read_msg(int socket)
 {
 	char	buf[BUF];
 	int		len;
-	char *str;
+//	char *str;
 
-	str = NULL;
+	//str = NULL;
 	len = read(socket, buf, BUF);
 	if (len == -1)
 	{

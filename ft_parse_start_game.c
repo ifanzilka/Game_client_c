@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 #include "clent.h"
 
 //SOCKET STARTGAME {"move":false,"width":5,"height":7,"position":[6,1],"opponentPosition":[0,1],"barriers":[[[4,1],[4,0],[5,1],[5,0]],[[3,2],[3,3],[4,2],[4,3]]]}
