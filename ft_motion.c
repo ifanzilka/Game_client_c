@@ -18,13 +18,13 @@ int     ft_motion(int socket,char *str)
     (void) socket;
     printf("Мы были в [%d,%d]\n",game.my_pos.x, game.my_pos.y);
 
-    if (game.my_pos.y + 1 <= game.height)
+    if (game.my_pos.y + 1 < game.width)
     {
         game.my_pos.y+=1;
     }
-    else if (game.my_pos.x + 1 <= game.width)
+    else if (game.my_pos.x + 1 < game.height)
     {
-         game.my_pos.y+=1;
+         game.my_pos.x+=1;
     }
     else if (game.my_pos.y - 1 >= 0)
     {
